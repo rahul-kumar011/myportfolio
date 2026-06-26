@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* color: rgb(69, 29, 202); */
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    /* background-color: rgb(255, 0, 43); */
+}
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(back2.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+}
+
+#word{
+        color: white;
+    }
+.name{
+   margin-right: 10px;
+}
+.about{
+    text-decoration: none;
+    color: white;
+    
+}
+.navi{
+    text-decoration-color: #f7f7f8;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: 20px;
+}
+#logo{
+    /* color: rgb(15, 136, 243); */
+    background-color: rgb(242, 236, 241);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(116, 15, 56);
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 45px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.demo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.myname{
+    color: rgb(254, 252, 252);
+   font-family: 'Poppins', sans-serif;
+}
+.domain{
+    color: rgb(25, 122, 139);
+}
+.progress{
+    color: white;
+}
+
+.line{
+    width: 80px;
+    height: 2px;
+    background-color: #6c63ff;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.text{
+    color: white;
+}
+.button{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(186, 178, 27);
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    border-radius: 20px;
+    border: #6c63ff;
+}
+
+.contact{
+    text-align: center;
+    margin: 60px 0 50px 0;
+}
+
+.all_button{
+   display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    max-width:500px;
+    margin: auto;
+    
+}
+
+.card{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
+     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.card p{
+    color: gray;
+    margin-top: 5px;
+}
+.card span{
+    font-size: 25px;
+}
+
+.icon-whatsapp{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.icon-whatsapp i{
+    font-size: 28px;
+    color: #25D366; 
+}
+.card p{
+    margin: 5px 0 0 43px;
+}
+
+.icon-insta{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.icon-insta i{
+    font-size: 28px;
+    color: #e10f0f; 
+}
+
+.icon-linkedin{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.icon-linkedin i{
+    font-size: 28px;
+    color: #3611df; 
+}
+
+.icon-github{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.icon-github i{
+    font-size: 28px;
+    color: #0c0e0c; 
+}
+
+.icon-mail{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.icon-mail i{
+    font-size: 28px;
+    color: #c01364; 
+}
+
+.arrow1{
+    color: green;
+}
+.arrow2{
+    color: #e10f0f;
+}
+.arrow3{
+    color: #3611df;
+}
+.arrow4{
+    color: #0c0e0c;
+}
+.arrow5{
+    color: #c01364;
+}
+.arrow6{
+    color: rgb(187, 187, 19);
+}
+
+.icon-snap{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.icon-snap i{
+    font-size: 28px;
+    color: rgb(172, 172, 29); 
+}
+
+.card-link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.card:hover{
+    background-color: #c3d0d6;
+    transform: translatex(3px);
+}
+
+/* .card:active{
+    background-color: #e30f0f;
+    transform: scale(0.98);
+} */
+
+.whatsapp-card:active{
+    background-color: #12b45b;
+    transform: translate(-5px);
+}
+.insta-card:active{
+    background-color: #d20b32;
+    transform: translate(-5px);
+}
+.snap-card:active{
+    background-color: #a2b728;
+    transform: translate(-5px);
+}
+.linkedin-card:active{
+    background-color: #591bb0;
+    transform: translate(-5px);
+}
+.github-card:active{
+    background-color: #474243;
+    transform: translate(-5px);
+}
+.mail-card:active{
+    background-color: #84283a;
+    transform: translate(-5px);
+}
+.button:active{
+    background-color: red;
+}
+
+.contact h2{
+    color: rgb(206, 190, 191);
+    font-weight: bold;
+    display: inline-block;
+    transform: perspective(300px) rotateX(25deg);
+}
+
+.contact p{
+    color: rgb(206, 190, 191);
+    transform: perspective(300px) rotateX(25deg);
+}
+
+.abo{
+    display: flex;
+    justify-content: center;
+    margin: 25px 50px 0 50px;
+}
+
+.containerss{
+    background: white;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    box-shadow: 0px 3px 10px   rgba(0,0,0,0.15);
+}
+.about-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ece7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.about-icon i{
+    font-size: 35px;
+    color: #6c63ff;
+}
+.about-text{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+}
+@media (max-width: 480px){
+
+    .containerss{
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .about-text{
+        font-size: 14px;
+    }
+
+    .about-icon{
+        margin-bottom: 10px;
+    }
+}
